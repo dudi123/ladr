@@ -1,0 +1,20 @@
+/**
+ * src/styles/settings.scss
+ *
+ * Configures SASS variables and Vuetify overwrites
+ */
+
+// https://next.vuetifyjs.com/features/sass-variables/`
+@use 'vuetify/settings' with (
+   $color-pack: true,
+   $card-border-width: 1px,
+   // $card-border-radius: 12px
+);
+
+.full-width {
+   width: 100%;
+}
+
+.font-weight-semibold {
+   font-weight: 500;
+}
